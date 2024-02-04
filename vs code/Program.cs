@@ -18,3 +18,10 @@ foreach (string i in array)
         index++;
     }
 }
+Console.WriteLine("Новый массив:");
+Array.Resize(ref arrayNew, index);
+foreach (string i in arrayNew)
+{
+    Console.Write(i + " ");
+}
+Console.WriteLine();
